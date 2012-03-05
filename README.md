@@ -52,7 +52,7 @@ func main(){
 
 import bsonrpc                                                                  
 
-addr = 'localhost:9998'
+addr = 'localhost:9999'
 uri = 'http://%s/_bson_rpc_' % addr
 
 client = bsonrpc.BsonRpcClient(uri,5.0)
